@@ -1,6 +1,6 @@
 {
   "name": "react-harness",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "dist/cjs/react-harness.js",
   "module": "dist/es/react-harndess.js",
   "types": "dist/ts/index.d.ts",
