@@ -1,8 +1,8 @@
 {
   "name": "react-harness",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/cjs/react-harness.js",
-  "module": "dist/es/react-harndess.js",
+  "module": "dist/es/react-harness.js",
   "types": "dist/ts/index.d.ts",
   "repository": "git@github.com:jackmellis/react-harness.git",
   "author": "Jack Ellis <jack.ellis@godaddy.com>",
