@@ -25,7 +25,7 @@ export default function Harness<T>({
   ...props
 }: Props<T>) {
   const context = useContext(Context);
-  const stubsRef = useRef(context?.stubs ?? []);
+  const stubsRef = useRef(context?.stubs || []);
 
   // is there already a stub registered for this component?
   const stub = stubsRef.current.find(({ Component: C }) => C === Component);
